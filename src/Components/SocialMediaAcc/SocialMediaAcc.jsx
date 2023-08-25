@@ -10,11 +10,11 @@ function SocialMediaAcc() {
       <Facebook />
     </NavLink>
 
-    <NavLink to="htttps://loda.com/">
+    <NavLink to="htttps://loda.com/" target='_blank'>
       <LinkedIn />
     </NavLink>
 
-    <NavLink to="https://fontawesome.com/">
+    <NavLink to="https://fontawesome.com/" target='_blank'>
       <LanguageOutlined />
     </NavLink>
   </div>
