@@ -6,7 +6,7 @@ import { Facebook, LanguageOutlined, LinkedIn } from '@mui/icons-material'
 function SocialMediaAcc() {
   return (
     <div className="Icons">
-    <NavLink to="https://www.facebook.com/bard.ai">
+    <NavLink to="https://www.facebook.com/bard.ai" target='_blank'>
       <Facebook />
     </NavLink>
 
