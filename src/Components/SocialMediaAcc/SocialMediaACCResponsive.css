@@ -1,0 +1,38 @@
+@media (min-width: 1024px) and (max-width: 1620px) {
+
+  .Icons {
+    width: 100px;
+    margin: -24px 16px 8px;
+    padding: 13px;
+    text-align: center;
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    color: rgb(35, 45, 61);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 90px;
+    left: 660px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
+
+@media (min-width: 1620px) and (max-width: 2000px) {
+
+  .Icons {
+    width: 100px;
+    margin: -24px 16px 8px;
+    padding: 13px;
+    text-align: center;
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    color: rgb(35, 45, 61);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 90px;
+    left: 830px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
+

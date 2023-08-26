@@ -1,0 +1,18 @@
+@media (min-width: 68px) and (max-width: 1024px) {
+
+  .Icons {
+    width: 100px;
+    margin: -24px 16px 8px;
+    padding: 13px;
+    text-align: center;
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    color: rgb(35, 45, 61);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 90px;
+    left: 330px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}

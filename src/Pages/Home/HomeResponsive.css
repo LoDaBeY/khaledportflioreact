@@ -1,27 +1,32 @@
-@media (min-width: 1025px) and (max-width: 1980px)  {
+@media (min-width: 68px) and (max-width: 1024px) {
+
   * {
     width: 100%;
     margin: 0px;
     padding: 0px;
-  
+
   }
-  
+
   .Contaniner {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: url("../../Assets/LandingPageChooseBetween.png");
     overflow: hidden;
+    background-image: url("../../Assets/LandingPageChooseBetween.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
-  
+
   .Piclft,
   .PicRT {
-    width: 430px;
-    padding: 70px;
-    box-shadow: 0px 0px 28px 16px rgba(0,0,0,0.77);
+    width: 210px;
+    padding: 260px 10px;
+    box-shadow: 0px 0px 28px 16px rgba(0, 0, 0, 0.77);
     border-radius: 10%;
+    flex-direction: column;
   }
   
   .Orange, .White {
@@ -29,7 +34,7 @@
   
   
   }
-  
+
   img:hover
    {
   
@@ -54,11 +59,12 @@
       transform: scale3d(1, 1, 1);
     }
   }
-  
+
+    
   h4 {
     position: absolute;
     top: 40%;
-    right: 10%;
+    right: 19%;
     color: #512CFF;
     z-index: 1;
     text-align: center;
@@ -109,24 +115,9 @@
       transform: translate(0);
     }
   }
-  
-  .Icons {
-    width: 100px;
-    margin: -24px 16px 8px;
-    padding: 13px;
-    text-align: center;
-    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
-    color: rgb(35, 45, 61);
-    border-radius: 0.5rem;
-    position: absolute;
-    bottom: 90px;
-    left: 650px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
+
   
 }
-a {
-  text-decoration: none;
+@media (max-width: 1500px) {
+
 }

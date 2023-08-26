@@ -19,6 +19,10 @@ const router = createBrowserRouter([
     path: "/DevLandingPage",
     element: <DevLandingPage />,
   },
+  {
+    path: "*",
+    element: <DevLandingPage />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
