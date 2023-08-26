@@ -8,7 +8,8 @@ import AvatarContent from "Components/AvatarContent/AvatarContent";
 
 function Home() {
   return (
-    <div>
+    <>
+
       <div className="Contaniner">
         <section className="PicRT">
           <Link href="TranslatorLandingPage">
@@ -46,7 +47,7 @@ function Home() {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

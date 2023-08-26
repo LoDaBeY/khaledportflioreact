@@ -1,10 +1,20 @@
-
-import './TranslatorLandingPage.css'
-import './TranslatorLandingPageResponsive.css'
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import "./TranslatorLandingPage.css";
+import "./TranslatorLandingPageResponsive.css";
 
 function TranslatorLandingPage() {
   return (
-    <div>TranslatorLandingPage</div>
+<div>
+      <HelmetProvider>
+        <Helmet>
+        <title> Translator Page</title>
+            <meta name="description" content="The Translator Page" />
+        </Helmet>
+      </HelmetProvider>
+      
+<div>TranslatorLandingPage</div>
+</div>
+
   )
 }
 

@@ -8,7 +8,7 @@ import Services from "Pages/TranslatorPages/Services/Services";
 import TranslatorLandingPage from "Pages/TranslatorPages/TranslatorLandingPage";
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -25,23 +25,19 @@ const router = createBrowserRouter([
     element: <DevLandingPage />,
   },
   {
-    path: "*",
-    element: <DevLandingPage />,
-  },
-  {
-    path: "*",
+    path: "/ResumePage",
     element: <ResumePage />,
   },
   {
-    path: "*",
+    path: "/Projects",
     element: <Projects />,
   },
   {
-    path: "*",
+    path: "/Services",
     element: <Services />,
   },
   {
-    path: "*",
+    path: "/ContactME",
     element: <ContactME />,
   },
   {
@@ -54,5 +50,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
+      <App />
   </React.StrictMode>
 );
