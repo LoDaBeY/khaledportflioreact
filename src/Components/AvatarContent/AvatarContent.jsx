@@ -5,7 +5,7 @@ function AvatarContent({TranslatorMood,DevloperMood}) {
     <div>
 
 
-Your {TranslatorMood} {DevloperMood} Mood 
+ {TranslatorMood} {DevloperMood} Mood 
 
 
 </div>
