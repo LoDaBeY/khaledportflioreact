@@ -1,43 +1,27 @@
 import {
   AppBar,
   Box,
+  Button,
   IconButton,
-
   Toolbar,
   Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Brightness4Outlined } from "@mui/icons-material";
-import  './AppBar.css'
 
-function Appbar() {
+export default function ButtonAppBar() {
   return (
-    <div>
-      <Box>
-        <AppBar className="AppBar" position="static">
-          <Toolbar>
-            <IconButton
-              size="small"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-            >
-              <MenuIcon />
-            </IconButton>
-
-            <Typography variant="h6" component="div"  color="black"   sx={{ display: "flex" }}>
-              Khaled   <span>Ghonim</span>
-            </Typography>
-
-
-            <IconButton aria-label="Dark Mood">
-              <Brightness4Outlined/>
-            </IconButton>
-          </Toolbar>
-        </AppBar>
-      </Box>
-    </div>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton size="medium" edge="start" color="inherit" sx={{ mr: 2 }}>
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Khaled Ghonim
+          </Typography>
+          <Button color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 }
-
-export default Appbar;

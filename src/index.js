@@ -1,6 +1,5 @@
 import DevLandingPage from "Pages/DevPages/DevLandingPage";
 import ErrorPage from "Pages/Home/ErrorPage";
-import Home from "Pages/Home/Home";
 import ContactME from "Pages/TranslatorPages/ContactME/ContactME";
 import Projects from "Pages/TranslatorPages/Projects/Projects";
 import ResumePage from "Pages/TranslatorPages/Resume/ResumePage";
@@ -13,8 +12,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
+    //just now will be the local landing page the dev untill you mange to seperate the CSS files
     path: "/",
-    element: <Home />,
+    element: <DevLandingPage />,
   },
   {
     path: "/TranslatorLandingPage",

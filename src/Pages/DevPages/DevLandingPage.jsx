@@ -15,7 +15,7 @@ function DevLandingPage() {
         </Helmet>
       </HelmetProvider>
       <div>
-      <AppBar/>
+      <AppBar  photo ='./Assets/Black & Beige Minimalist Elegant Monogram Initials Logo.png' />
       </div>
 
     </div>
