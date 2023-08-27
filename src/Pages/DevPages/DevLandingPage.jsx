@@ -2,7 +2,10 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./DevLandingPage.css";
 import AppBar from "Components/AppBar/AppBar";
 
+
 function DevLandingPage() {
+
+
   return (
     <div>
       <HelmetProvider>
@@ -12,7 +15,6 @@ function DevLandingPage() {
         </Helmet>
       </HelmetProvider>
       <div>
-
       <AppBar/>
       </div>
 
