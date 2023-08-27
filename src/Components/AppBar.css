@@ -1,0 +1,13 @@
+.AppBar{
+
+  height: 70px;
+padding: 0px 144px;
+align-items: center;
+display: flex;
+width: 1400px;;
+color:#212B36;
+}
+span{
+  color: #FA541C;
+  padding-left: 5px;
+}

@@ -1,6 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./TranslatorLandingPage.css";
 import "./TranslatorLandingPageResponsive.css";
+import AppBar from "Components/AppBar";
 
 function TranslatorLandingPage() {
   return (
@@ -12,7 +13,8 @@ function TranslatorLandingPage() {
         </Helmet>
       </HelmetProvider>
       
-<div>TranslatorLandingPage</div>
+      <AppBar/>
+
 </div>
 
   )

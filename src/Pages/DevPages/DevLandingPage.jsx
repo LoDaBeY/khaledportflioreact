@@ -1,16 +1,21 @@
-import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./DevLandingPage.css";
+import AppBar from "Components/AppBar";
+
 function DevLandingPage() {
   return (
     <div>
       <HelmetProvider>
         <Helmet>
-          <title> Dev Page</title>
+          <title>Dev Page</title>
           <meta name="description" content="The Dev Page" />
         </Helmet>
       </HelmetProvider>
-      <div>DevLandingPage</div>
+      <div>
+
+      <AppBar/>
+      </div>
+
     </div>
   );
 }
