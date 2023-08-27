@@ -5,7 +5,7 @@ import ContactME from "Pages/TranslatorPages/ContactME/ContactME";
 import Projects from "Pages/TranslatorPages/Projects/Projects";
 import ResumePage from "Pages/TranslatorPages/Resume/ResumePage";
 import Services from "Pages/TranslatorPages/Services/Services";
-import TranslatorLandingPage from "Pages/TranslatorPages/TranslatorLandingPage";
+import TranslatorLandingPage from "./Pages/TranslatorPages/HomeTranslatorPage/TranslatorLandingPage"
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";

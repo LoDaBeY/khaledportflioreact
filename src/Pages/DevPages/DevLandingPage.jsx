@@ -1,6 +1,6 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./DevLandingPage.css";
-import AppBar from "Components/AppBar";
+import AppBar from "Components/AppBar/AppBar";
 
 function DevLandingPage() {
   return (
